@@ -1,12 +1,18 @@
-import Cta from '/src/components/cta/Cta';
-import Feature from '/src/components/feature/Feature';
-import HowItWorks from '/src/components/HowItWorks';
+import Cta from '../sections/Cta';
+import Feature from '../sections/Feature';
+import HowItWorks from '../sections/HowItWorks';
+import Testimonials from '../sections/Testimonials';
+import SignUp from '../sections/SignUp';
+import Footer from '../sections/Footer';
 const Home = () => {
   return (
     <>
       <Cta />
       <Feature />
       <HowItWorks />
+      <Testimonials />
+      <SignUp />
+      <Footer />
     </>
   );
 };
