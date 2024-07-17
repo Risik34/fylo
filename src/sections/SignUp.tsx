@@ -1,6 +1,6 @@
 const SignUp = () => {
   return (
-    <section className="p-10">
+    <section className="p-10" id="signup">
       <form className="p-10 text-center space-y-6 bg-testimonialsbg">
         <h1 className="font-raleway font-bold text-xl ">
           Get early access today

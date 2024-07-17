@@ -6,15 +6,17 @@ const Footer = () => {
   return (
     <section className="p-10 ">
       <img src={logo} />
-      <div className="grid md:grid-cols-3 grid-flow-col justify-around">
+      <div className="flex flex-row flex-wrap md:flex-nowrap justify-between my-6">
         <div>
           <div className=" grid md:grid-cols-3 gap-5 md:gap-3">
             <div className="flex md:col-span-2 md:row-span-2">
-              <img src={locationIcon} className="size-5 relative top-1 mr-3" />
+              <img src={locationIcon} className="w-4 h-5 relative top-1 mr-3" />
               <div>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                  Lorem ipsum dolor sit amet,
+                  <br /> consectetur adipiscing elit,
+                  <br /> sed do eiusmod tempor incididunt
+                  <br /> ut labore et dolore magna aliqua
                 </p>
               </div>
             </div>

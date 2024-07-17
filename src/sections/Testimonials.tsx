@@ -2,7 +2,7 @@ import quotes from '/src/assets/bg-quotes.png';
 import TestimonialsCard from '../components/TestimonialsCard';
 const Testimonials = () => {
   return (
-    <section className="px-10 py-10 ">
+    <section className="px-10 py-10 " id="testimonials">
       <img src={quotes} className="size-6" />
       <div className="grid md:grid-cols-3 gap-6">
         <TestimonialsCard
