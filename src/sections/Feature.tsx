@@ -8,7 +8,7 @@ import anyFileIcon from '/src/assets/icon-any-file.svg';
 const Feature = () => {
   return (
     <section
-      className="py-20 px-10 md:px-20 grid md:grid-cols-2 gap-y-20 md:justify-around items-center"
+      className="py-20  grid md:grid-cols-2 gap-y-20 md:justify-around items-center"
       id="features"
     >
       <FeatureCard

@@ -2,7 +2,7 @@ import illustration from '/src/assets/illustration-stay-productive.png';
 import arrow from '/src/assets/icon-arrow.svg';
 const HowItWorks = () => {
   return (
-    <section className="py-20 px-10  grid md:grid-cols-2 gap-10">
+    <section className="  grid md:grid-cols-2 gap-10">
       <img src={illustration} alt="stay-productive" />
       <div className="md:mt-16 space-y-4">
         <h2 className="text-2xl md:text-3xl font-raleway font-semibold">

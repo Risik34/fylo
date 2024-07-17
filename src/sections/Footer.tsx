@@ -4,9 +4,9 @@ import phoneIcon from '/src/assets/icon-phone.svg';
 import locationIcon from '/src/assets/icon-location.svg';
 const Footer = () => {
   return (
-    <section className="p-10 ">
+    <section id="footer" className="pb-10">
       <img src={logo} />
-      <div className="flex flex-row flex-wrap md:flex-nowrap justify-between my-6">
+      <div className="flex flex-col md:flex-row flex-wrap md:flex-nowrap justify-between my-8 space-y-6 md:space-y-0">
         <div>
           <div className=" grid md:grid-cols-3 gap-5 md:gap-3">
             <div className="flex md:col-span-2 md:row-span-2">
@@ -36,14 +36,14 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <ul className="space-y-3 text-lg font-opensans">
-          <li>About us</li>
+        <ul className="space-y-2 text-md font-opensans text-gray-300">
+          <li className="text-lg text-white">About Us</li>
           <li>Jobs</li>
           <li>Press</li>
           <li>Blog</li>
         </ul>
-        <ul className="space-y-3 text-lg font-opensans">
-          <li>Contact us</li>
+        <ul className="space-y-3 text-md font-opensans text-gray-300">
+          <li className="text-lg text-white">Contact Us</li>
           <li>Terms</li>
           <li>Privacy</li>
         </ul>
