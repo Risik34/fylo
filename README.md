@@ -1,6 +1,6 @@
 # Fylo Landing Page
 
-![fylo](https://asset.cloudinary.com/dtopbysq3/187235fbaf5a015f991d1fbf0b430f57)
+![fylo](https://drive.usercontent.google.com/u/0/uc?id=1QdZirKssk1eqx_vEGEMQfW42V0FjPeGr&export=download)
 This repository contains the source code for the Fylo landing page, built using Vite, React, JavaScript, and Tailwind CSS. The project is designed to be SEO-friendly and fully responsive, ensuring an optimal user experience across different devices. The site is deployed on Vercel for easy and fast hosting.
 
 ## Table of Contents
