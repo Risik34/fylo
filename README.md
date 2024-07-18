@@ -1,4 +1,4 @@
-![fylo](https://drive.usercontent.google.com/u/0/uc?id=1QdZirKssk1eqx_vEGEMQfW42V0FjPeGr&export=download)
+![fylo](https://raw.githubusercontent.com/Risik34/fylo/master/public/Cover.jpg)
 This repository contains the source code for the Fylo landing page, built using Vite, React, JavaScript, and Tailwind CSS. The project is designed to be SEO-friendly and fully responsive, ensuring an optimal user experience across different devices. The site is deployed on Vercel for easy and fast hosting.
 
 <p align="center">
