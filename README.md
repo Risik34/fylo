@@ -1,30 +1,54 @@
-# React + TypeScript + Vite
+# Fylo Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This repository contains the source code for the Fylo landing page, built using Vite, React, JavaScript, and Tailwind CSS. The project is designed to be SEO-friendly and fully responsive, ensuring an optimal user experience across different devices. The site is deployed on Vercel for easy and fast hosting.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Table of Contents
 
-## Expanding the ESLint configuration
+- [Demo](#demo)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
+## Demo
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+Check out the live demo of the Fylo landing page [here](https://fylo-snowy.vercel.app).
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Features
+
+- **Responsive Design**: Optimized for desktops, tablets, and mobile devices.
+- **SEO Friendly**: Implemented best practices to ensure search engine optimization.
+- **Fast Loading**: Built with Vite for fast development and optimized build times.
+- **Clean and Modern UI**: Designed with Tailwind CSS for a sleek and modern look.
+- **Easy Deployment**: Deployed on Vercel for reliable and fast hosting.
+
+## Technologies Used
+
+- **Vite**: Next Generation Frontend Tooling.
+- **React**: JavaScript library for building user interfaces.
+- **JavaScript**: Programming language for web development.
+- **Tailwind CSS**: Utility-first CSS framework.
+- **Vercel**: Deployment and hosting platform.
+
+## Installation
+
+To get a local copy up and running, follow these simple steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/fylo-landing-page.git
+   ```
+2. Cd into it
+   ```bash
+   cd fylo
+   ```
+3. Install dependencies
+   ```bash
+   pnpm install
+   ```
+5. Run locally
+   ```bash
+   pnpm run dev
+   ```
