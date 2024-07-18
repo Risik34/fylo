@@ -1,16 +1,13 @@
-# Fylo Landing Page
-
 ![fylo](https://drive.usercontent.google.com/u/0/uc?id=1QdZirKssk1eqx_vEGEMQfW42V0FjPeGr&export=download)
 This repository contains the source code for the Fylo landing page, built using Vite, React, JavaScript, and Tailwind CSS. The project is designed to be SEO-friendly and fully responsive, ensuring an optimal user experience across different devices. The site is deployed on Vercel for easy and fast hosting.
 
-## Table of Contents
-
-<div align="center">
-- [Demo](#demo)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-</div>
+<p align="center">
+<a href="#demo">Demo</a>
+   <a href="#feautures">Featuresa</a>
+   <a href="#tech-stack">Tech stack</a>
+   <a href="#installation">Installation</a>
+   
+</p>
 
 ## Demo
 
@@ -24,7 +21,7 @@ Check out the live demo of the Fylo landing page [here](https://fylo-snowy.verce
 - **Clean and Modern UI**: Designed with Tailwind CSS for a sleek and modern look.
 - **Easy Deployment**: Deployed on Vercel for reliable and fast hosting.
 
-## Technologies Used
+## Tech stack
 
 - **Vite**: Next Generation Frontend Tooling.
 - **React**: JavaScript library for building user interfaces.
