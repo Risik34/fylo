@@ -1,16 +1,16 @@
 # Fylo Landing Page
 
-## Overview
-
+![fylo](https://asset.cloudinary.com/dtopbysq3/187235fbaf5a015f991d1fbf0b430f57)
 This repository contains the source code for the Fylo landing page, built using Vite, React, JavaScript, and Tailwind CSS. The project is designed to be SEO-friendly and fully responsive, ensuring an optimal user experience across different devices. The site is deployed on Vercel for easy and fast hosting.
 
 ## Table of Contents
 
+<div align="center">
 - [Demo](#demo)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
-
+</div>
 
 ## Demo
 
@@ -48,7 +48,7 @@ To get a local copy up and running, follow these simple steps:
    ```bash
    pnpm install
    ```
-5. Run locally
+4. Run locally
    ```bash
    pnpm run dev
    ```

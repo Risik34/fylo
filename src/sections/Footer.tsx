@@ -1,16 +1,13 @@
-import logo from '/src/assets/logo.svg';
-import emailIcon from '/src/assets/icon-email.svg';
-import phoneIcon from '/src/assets/icon-phone.svg';
-import locationIcon from '/src/assets/icon-location.svg';
+import {fyloLogo,iconLocation,iconPhone,iconEmail} from "../assets"
 const Footer = () => {
   return (
     <section id="footer" className="pb-10">
-      <img src={logo} />
+      <img src={fyloLogo} />
       <div className="flex flex-col md:flex-row flex-wrap md:flex-nowrap justify-between my-8 space-y-6 md:space-y-0">
         <div>
           <div className=" grid md:grid-cols-3 gap-5 md:gap-3">
             <div className="flex md:col-span-2 md:row-span-2">
-              <img src={locationIcon} className="w-4 h-5 relative top-1 mr-3" />
+              <img src={iconLocation} className="w-4 h-5 relative top-1 mr-3" />
               <div>
                 <p>
                   Lorem ipsum dolor sit amet,
@@ -22,14 +19,14 @@ const Footer = () => {
             </div>
 
             <div className="flex">
-              <img src={phoneIcon} className="size-4 relative top-1 mr-3 " />
+              <img src={iconPhone} className="size-4 relative top-1 mr-3 " />
               <div>
                 <p>+1-543-123-4567</p>
               </div>
             </div>
 
             <div className="flex">
-              <img src={emailIcon} className="size-4 relative top-1 mr-3 " />
+              <img src={iconEmail} className="size-4 relative top-1 mr-3 " />
               <div>
                 <p>example@fylo.com</p>
               </div>

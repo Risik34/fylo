@@ -1,5 +1,5 @@
 import illustration from '/src/assets/illustration-stay-productive.png';
-import arrow from '/src/assets/icon-arrow.svg';
+import {iconArrow} from "../assets"
 const HowItWorks = () => {
   return (
     <section className="  grid md:grid-cols-2 gap-10">
@@ -19,7 +19,7 @@ const HowItWorks = () => {
         <p className="text-lg underline text-cyan  inline-block ">
           <a>
             See how it works
-            <img src={arrow} className="inline ml-2" alt="arrow" />
+            <img src={iconArrow} className="inline ml-2" alt="arrow" />
           </a>
         </p>
       </div>

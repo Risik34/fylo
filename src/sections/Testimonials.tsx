@@ -1,4 +1,4 @@
-import quotes from '/src/assets/bg-quotes.png';
+import {quotes,profile_1,profile_2,profile_3} from "../assets"
 import TestimonialsCard from '../components/TestimonialsCard';
 const Testimonials = () => {
   return (
@@ -9,7 +9,7 @@ const Testimonials = () => {
           review="Fylo
     has improved our team productivity by an order of magnitude. Since making
     the switch our team has become a well-oiled collaboration machine."
-          imgSrc="/src/assets/profile-1.jpg"
+          imgSrc={profile_1}
           name="Satish
     Patel"
           position="Founder & CEO, Huddle"
@@ -18,7 +18,7 @@ const Testimonials = () => {
           review="Fylo has improved our team productivity by an
     order of magnitude. Since making the switch our team has become a well-oiled
     collaboration machine."
-          imgSrc="/src/assets/profile-2.jpg"
+          imgSrc={profile_2}
           name="Bruce McKenzie"
           position="Founder & CEO, Huddle"
         />
@@ -26,7 +26,7 @@ const Testimonials = () => {
           review="Fylo has
     improved our team productivity by an order of magnitude. Since making the
     switch our team has become a well-oiled collaboration machine."
-          imgSrc="/src/assets/profile-3.jpg"
+          imgSrc={profile_3}
           name="Iva Boyd"
           position="Founder & CEO, Huddle"
         />

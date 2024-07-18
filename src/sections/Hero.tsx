@@ -1,9 +1,9 @@
-import illustrationIntroIcon from '/src/assets/illustration-intro.png';
+import {illustrationIntro} from '../assets';
 const Hero = () => {
   return (
     <>
       <div className=" text-center space-y-8 ">
-        <img src={illustrationIntroIcon} className=" mx-auto" />
+        <img src={illustrationIntro} className=" mx-auto" />
         <h1 className="text-2xl font-raleway font-semibold leading-relaxed">
           All your files in one secure location, accessible anywhere.
         </h1>
